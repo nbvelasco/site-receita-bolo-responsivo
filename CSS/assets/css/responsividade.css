@@ -1,0 +1,115 @@
+@media screen and (min-width: 0) {
+    .cabecalho {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+    .cabecalho__logo {
+        display: none;
+    }
+    .cabecalho__navegacao ul li a {
+        font-size: 1rem;
+    }
+    .banner__titulo {
+        font-size: 3rem;
+    }
+    .banner__imagem {
+        height: 65vh;
+    }
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+    .sobre__titulo {
+        font-size: 2.2rem;
+    }
+    .sobre__descricao {
+        font-size: 1.3rem;
+    }
+    .receita {
+        width: 100%;
+        margin-right: 1rem;
+    }
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+    .quem-somos__titulo {
+        font-size: 2.5rem;
+    }
+    .pessoas {
+        flex-direction: column;
+    }
+    .quem-somos__descricao {
+        font-size: 1.3rem;
+    }
+    .rodape p a {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 670px) {
+    .cabecalho {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+    .cabecalho__logo {
+        display: block;
+    }
+    .cabecalho__navegacao ul li a {
+        font-size: 1.2rem;
+    }
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+    .banner__imagem {
+        height: calc(100vh - 100px);
+    }
+    .sobre {
+        padding: 2.5rem;
+    }
+    .sobre__titulo {
+        font-size: 3.1875rem;
+    }
+    .sobre__descricao {
+        font-size: 1.75rem;
+    }
+    .receita {
+        width: calc(33.33% - 2.5rem);
+        margin-right: 2.5rem;
+    }
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+    .pessoas {
+        flex-direction: row;
+    }
+    .quem-somos__titulo {
+        font-size: 3.2rem;
+    }
+    .quem-somos__descricao {
+        font-size: 1.4rem;
+    }
+    .rodape p a {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cabecalho__navegacao ul li a {
+        font-size: 1.2rem;
+    }
+    .receita {
+        width: calc(25% - 5rem);
+        margin-right: 5rem;
+    }
+    .receitas {
+        padding: 5rem 0 0 5rem;
+    }
+    .quem-somos__titulo {
+        font-size: 3.2rem;
+    }
+    .quem-somos__descricao {
+        font-size: 1.75rem;
+    }
+    .rodape p a {
+        font-size: 1.3rem;
+    }
+}

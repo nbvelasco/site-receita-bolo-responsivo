@@ -1,0 +1,15 @@
+.rodape {
+    background: #bfbfbf;
+    text-align: right;
+    padding: 1.5625rem 5rem;
+    text-transform: lowercase;
+}
+
+.rodape p a  {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.rodape p a:hover {
+    text-decoration: underline;
+}

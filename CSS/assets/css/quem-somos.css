@@ -1,0 +1,55 @@
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+}
+
+.quem-somos__titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #850606;
+}
+
+.quem-somos__descricao {
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.pessoas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 0 2rem;
+    margin-top: 50px;
+}
+
+.pessoa_imagem {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.pessoa__nome {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.6rem;
+    color: #850606;
+    margin-top: 20px;
+}
+
+.pessoa__funcao {
+    margin-top: 10px;
+    color: #595959;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
